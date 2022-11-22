@@ -32,15 +32,15 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import NearestNeighbors
 
 #import causalGenTool
-from fairness.Max.CGT.core.utils import show, handle_dcausation, graph2adj, check_cycles
-from fairness.Max.CGT.patch.causalLearnPatch import ges_updated
-from fairness.Max.CGT.core.generator import CausalGenerator, norm_col, KL
-from fairness.Max.CGT.core.discovery import Discoverer
-from fairness.Max.CGT.core.bias import Observer
-from fairness.Max.CGT.core.assessment import Assessor
-from fairness.Max.CGT.core.mwcf_train.trainer import Model
-from fairness.Max.CGT.core.mwcf_train.utils import MWCF_loss, dataset
-from fairness.Max.CGT.core.fitter import LinearSCM
+from CFET.core.utils import show, handle_dcausation, graph2adj, check_cycles
+from CFET.patch.causalLearnPatch import ges_updated
+from CFET.core.generator import CausalGenerator, norm_col, KL
+from CFET.core.discovery import Discoverer
+from CFET.core.bias import Observer
+from CFET.core.assessment import Assessor
+from CFET.core.mwcf_train.trainer import Model
+from CFET.core.mwcf_train.utils import MWCF_loss, dataset
+from CFET.core.fitter import LinearSCM
 
 
 
